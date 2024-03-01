@@ -8,7 +8,7 @@ import { toastAlerta } from '../../../utils/toastAlerta';
 
 
 function FormularioPostagem() {
-  let navigate = useNavigate();
+  const navigate = useNavigate();
 
   const { id } = useParams<{ id: string }>();
 
@@ -26,7 +26,7 @@ function FormularioPostagem() {
     id: 0,
     titulo: '',
     texto: '',
-    data: '',
+    date: '',
     tema: null,
     usuario: null,
   });
