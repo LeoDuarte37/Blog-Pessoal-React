@@ -21,7 +21,7 @@ function CardPostagem({post}: CardPostagemProps) {
           <p>Data: {new Intl.DateTimeFormat(undefined, {
                     dateStyle: 'full',
                     timeStyle: 'medium',
-                  }).format(new Date(post.data))}</p>
+                  }).format(new Date(post.date))}</p>
         </div>
       </div>
       <div className="flex">
